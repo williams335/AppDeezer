@@ -1,5 +1,15 @@
 {
   "name": "AppDeezer",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/",
+      "proxyUrl": "http://api.deezer.com"
+    }
+  ],
+  "integrations": {
+    "cordova": {}
+  }
+  
 }

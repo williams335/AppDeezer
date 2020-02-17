@@ -1,0 +1,29 @@
+<!--
+  Generated template for the ListartistsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Liste des Albums</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card *ngFor="let albs of albums.data" (click)="ListTrack(albs.album.tracklist, albs.album.cover_big, albs.album.title )" >
+    <img src="{{albs.album.cover_big}}"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{ albs.album.title }}
+        </ion-card-title>
+    
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+

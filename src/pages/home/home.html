@@ -1,14 +1,25 @@
-<ion-header>
+<ion-header >
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
+    <ion-title id="title">
+      Rechercher un artiste
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content  id="bg-img" padding>
+  
+  
+  
+  
+    
+    <ion-item class="item" padding>
+      <ion-label color="primary" stacked>Rechercher</ion-label>
+      <ion-input type="text" style="justify-content: center;"placeholder="Entrer le nom de l'artiste" [(ngModel)]="nom"></ion-input>
+    </ion-item>
+  
+  
+  <div class="btn">
+  <button ion-button primary round (click)="nextPage()">Rechercher</button>
+  </div>
+  
 </ion-content>

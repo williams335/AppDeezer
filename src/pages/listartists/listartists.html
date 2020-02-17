@@ -1,0 +1,32 @@
+<!--
+  Generated template for the ListartistsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Liste des artistes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card *ngFor="let artist of artists.data" (click)="ListAlbums(artist.tracklist)">
+    <img src="{{artist.picture_big}}"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{ artist.name }}
+        </ion-card-title>
+      <p>
+        {{ artist.nb_album }} Albums.
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
+

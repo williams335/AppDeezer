@@ -1,0 +1,48 @@
+page-listalbums {
+    
+    .back-button, .bar-button, .bar-button-md, .back-button-md, .bar-button-default, .bar-button-default-md, .show-back-button{
+        color:white;
+       }
+
+       .logo{
+        display: flex;
+        flex-direction: row;
+        
+       }
+    
+       
+    .toolbar-background, .toolbar-background-md{
+        color:#071821;
+        background:#071821;
+    }
+    
+    .toolbar-title, .toolbar-title-md{
+        color:white;
+    }
+    
+    .scroll-content{
+        background-image: url(../assets/images/listalbums.png);
+        background-repeat: no-repeat;
+        left: -10px;
+        right: -10px;
+    }
+    
+    .card-content, .card-content-md{
+        background:rgba(255, 255, 255, 0.0);
+    }
+    
+    .card, .card-md{
+        background:rgba(255, 255, 255, 0.0);
+    }
+    
+    .card-title, .card-title-md{
+        color: white;
+    }
+    
+    .card-md p{
+        color:white;
+    }
+
+
+
+}

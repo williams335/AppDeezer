@@ -1,0 +1,19 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "AppDeezer",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "false",
+      "android-minSdkVersion": "16",
+      "BackupWebStorage": "none",
+      "FadeSplashScreenDuration": "300",
+      "SplashScreenDelay": "10000",
+      "AutoHideSplashScreen": "false",
+      "FadeSplashScreen": "true",
+      "ShowSplashScreen": "true"
+    }
+  }
+}
