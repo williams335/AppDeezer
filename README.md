@@ -1,6 +1,8 @@
 # Application de streaming de musique
 
 Utilisation de l'api deezer
+
+
 Projet conçu avec la framework Ionic 3
 
 # Instructions
